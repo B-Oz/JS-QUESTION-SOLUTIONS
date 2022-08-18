@@ -9,8 +9,9 @@ do {
     again = true;
 
    while (guess < life) {
-        let guessNum = +prompt("Enter a number : ");
+        let guessNum = +prompt("Enter a number 1-100: ");
         // console.log(randomNum);
+       
     
         if (guessNum == randomNum) {
           console.log(
